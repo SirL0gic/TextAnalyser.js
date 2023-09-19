@@ -4,7 +4,7 @@
   "description": "An open source Node.js library to analyse text using artificial intelligence and other conventional methods.",
   "main": "textanalyser.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -28,5 +28,8 @@
   "dependencies": {
     "@tensorflow/tfjs-node": "^4.11.0",
     "axios": "^1.5.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
