@@ -4,8 +4,7 @@
 ![npm monthly downloads](https://img.shields.io/npm/dm/textanalyser.js)
 ![License](https://img.shields.io/npm/l/textanalyser.js)
 
-
-A Node.js library for text analysis, leveraging both artificial intelligence and traditional techniques.
+An open source Node.js library to analyse text using artificial intelligence and other conventional methods. 
 
 🚀 **Latest Updates**: We have just launched! Stay tuned for more features.
 
