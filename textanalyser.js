@@ -1,22 +1,30 @@
-const axios = require('axios');
-const tf = require('@tensorflow/tfjs-node');
+const axios = require("axios");
+const tf = require("@tensorflow/tfjs-node");
 
 let model = null;
 let metadata = null;
 
 const loadModelAndMetadata = async () => {
   if (!model) {
-    model = await tf.loadLayersModel("https://storage.googleapis.com/tfjs-models/tfjs/sentiment_cnn_v1/model.json");
+    model = await tf.loadLayersModel(
+      "https://storage.googleapis.com/tfjs-models/tfjs/sentiment_cnn_v1/model.json"
+    );
   }
 
   if (!metadata) {
-    const response = await axios.get("https://storage.googleapis.com/tfjs-models/tfjs/sentiment_cnn_v1/metadata.json");
+    const response = await axios.get(
+      "https://storage.googleapis.com/tfjs-models/tfjs/sentiment_cnn_v1/metadata.json"
+    );
     metadata = response.data;
   }
 };
 
 const predictSentiment = async (inputText) => {
-  const trimmed = inputText.trim().toLowerCase().replace(/(\.|\,|\!)/g, "").split(" ");
+  const trimmed = inputText
+    .trim()
+    .toLowerCase()
+    .replace(/(\.|\,|\!)/g, "")
+    .split(" ");
   const inputBuffer = tf.buffer([1, metadata.max_len], "float32");
 
   trimmed.forEach((word, i) => {
