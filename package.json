@@ -1,0 +1,32 @@
+{
+  "name": "textanalyser",
+  "version": "1.0.0",
+  "description": "An open source Node.js library to analyse text using artificial intelligence and other conventional methods.",
+  "main": "textanalyser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirL0gic/TextAnalyser.js.git"
+  },
+  "keywords": [
+    "artificial",
+    "intelligence",
+    "node",
+    "ai",
+    "nlp",
+    "javascript",
+    "backend"
+  ],
+  "author": "Abis Ali",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/SirL0gic/TextAnalyser.js/issues"
+  },
+  "homepage": "https://github.com/SirL0gic/TextAnalyser.js#readme",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.11.0",
+    "axios": "^1.5.0"
+  }
+}
