@@ -59,7 +59,7 @@ const getSentiment = async (text) => {
 
   return {
     emoji: getEmoji(sentimentValue),
-    positivityValue: sentimentValue * 100 + " %",
+    positivityValue: (sentimentValue * 100).toFixed(3) + "%"
   };
 };
 

@@ -12,6 +12,11 @@ An open source Node.js library to analyse text using artificial intelligence and
 
 - Sentiment analysis of a given text.
 
+### Artificial Intelligence Model
+For the initial launch, we are using a mini TensorFlow model with 2.7 million parameters. A larger model and additional functionality will be introduced in the upcoming months.
+<br>
+Read more about it here: [Click me](https://github.com/SirL0gic/TextAnalyser.js/blob/main/information.md)
+
 ## Installation
 
 Install via npm:
@@ -42,7 +47,7 @@ console.timeEnd("Runtime");
 **Sample Output**:
 ```
 Runtime: 22.955ms
-{ emoji: '😱', positivityValue: '3.457370400428772 %' }
+{ emoji: '😱', positivityValue: '3.457%' }
 ```
 
 ## Contributing
