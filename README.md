@@ -4,18 +4,26 @@
 ![npm monthly downloads](https://img.shields.io/npm/dm/textanalyser.js)
 ![License](https://img.shields.io/npm/l/textanalyser.js)
 
-An open-source Node.js library, textanalyser.js, harnesses artificial intelligence and conventional methods for text analysis. Even as Python dominates the AI and ML domains, we're enriching JavaScript's capabilities. Taking cues from TensorFlow's strides in JS, textanalyser.js steps it up. Integration is seamless—invoke a function, and get immediate results. Expertly crafted for peak performance, with a touch of heart. 🌟
-
 🚀 **Latest Updates**: We have just launched! Stay tuned for more features.
+
+An open-source Node.js library, textanalyser.js, harnesses artificial intelligence and conventional methods for text analysis. Even as Python dominates the AI and ML domains, we're enriching JavaScript's capabilities. Taking cues from TensorFlow's strides in JS, textanalyser.js steps it up. Integration is seamless—invoke a function, and get immediate results. Expertly crafted for peak performance, with a touch of heart. 🌟
 
 ## Features
 
-- Sentiment analysis of a given text.
+- Sentiment analysis of a given text. (Introduced in Version 1.0.0)
 
 ### Artificial Intelligence Model
 For the initial launch, we are using a mini TensorFlow model with 2.7 million parameters. A larger model and additional functionality will be introduced in the upcoming months.
 <br>
 Read more about it here: [Click me](https://github.com/SirL0gic/TextAnalyser.js/blob/main/information.md)
+
+### Upcoming features:
+- POS (Part-of-Speech) Tagging:
+- Entity Recognition
+- Plagiarism Detection
+- Topic Modeling
+- Language Detection
+- Text Summarization
 
 ## Installation
 
