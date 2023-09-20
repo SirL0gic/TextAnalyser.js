@@ -50,6 +50,15 @@ Runtime: 22.955ms
 { emoji: '😱', positivityValue: '3.457%' }
 ```
 
+### Support
+Currently supports the following platforms:
+
+- Mac OS X CPU (10.12.6 Siera or higher)
+- Linux CPU (Ubuntu 14.04 or higher)
+- Linux GPU (Ubuntu 14.04 or higher and Cuda 11.2 w/ CUDNN v8) 
+- Windows CPU (Win 7 or higher)
+- Windows GPU (Win 7 or higher and Cuda 11.2 w/ CUDNN v8) 
+
 ## Contributing
 
 We welcome contributions! If you find any issues or have suggestions, please open an issue or submit a pull request.
