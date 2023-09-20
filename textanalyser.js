@@ -50,6 +50,8 @@ const getEmoji = (positivity) => {
   return "😱";
 };
 
+
+// User Functions
 const getSentiment = async (text) => {
   if (!model || !metadata) {
     await loadModelAndMetadata();

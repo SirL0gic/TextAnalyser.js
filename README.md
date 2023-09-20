@@ -4,7 +4,7 @@
 ![npm monthly downloads](https://img.shields.io/npm/dm/textanalyser.js)
 ![License](https://img.shields.io/npm/l/textanalyser.js)
 
-An open source Node.js library to analyse text using artificial intelligence and other conventional methods. 
+An open-source Node.js library, textanalyser.js, harnesses artificial intelligence and conventional methods for text analysis. Even as Python dominates the AI and ML domains, we're enriching JavaScript's capabilities. Taking cues from TensorFlow's strides in JS, textanalyser.js steps it up. Integration is seamless—invoke a function, and get immediate results. Expertly crafted for peak performance, with a touch of heart. 🌟
 
 🚀 **Latest Updates**: We have just launched! Stay tuned for more features.
 

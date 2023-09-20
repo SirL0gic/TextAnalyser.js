@@ -1,14 +1,5 @@
 const getSentiment = require("./textanalyser.js");
 
-// const run = async () => {
-//   const result = await getSentiment("I dont know what to do in life but it is okay");
-//   console.log(result.stat);
-// };
-
-// console.time("Runtime");
-// run();
-// console.timeEnd("Runtime");
-
 //Test Cases
 const runTest = async (text, emoji, output, isSuccess, testNumber) => {
   const result = await getSentiment(text);
