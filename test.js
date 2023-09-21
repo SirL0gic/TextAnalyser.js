@@ -16,5 +16,11 @@ const runTest = async (text, emoji, output, isSuccess, testNumber) => {
 console.time("Runtime");
 runTest("I am having a good day", "😍", "99.979%", true, 1);
 runTest("I am having a horrible day", "😱", "0.057%", true, 2);
-runTest("I dont know what to do in life but it is okay","😐","55.075%",true,3);
+runTest(
+  "I dont know what to do in life but it is okay",
+  "😐",
+  "55.075%",
+  true,
+  3
+);
 console.timeEnd("Runtime");
