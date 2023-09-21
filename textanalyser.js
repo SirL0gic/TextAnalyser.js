@@ -25,6 +25,10 @@ const loadModelAndMetadata = async () => {
 };
 
 const predictSentiment = async (inputText) => {
+  if(!inputText) {
+    throw new Error("Input text is undefined or null.");
+  }
+  
   const trimmed = inputText
     .trim()
     .toLowerCase()
